@@ -87,10 +87,46 @@
     font-size: 16px;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
+    .profile-container header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+    .profile-container header img{
+        margin-bottom: 25px;
+    }
 
+    .profile-container header span{
+        margin: 0 0 15px 0;
+    }
 
+    .profile-container header a.button{
+        line-height: 50px;
+        height: 50px;
+    }
 
+    .profile-container header button {
+        height: 50px;
+        width: 50px;
+    }
 
+    .profile-container h1 {
+        margin: 15px 0 15px;
+    }
 
+    .profile-container ul{
+        grid-template-columns: 1fr;
+    }
+
+    .profile-container ul li strong {
+        margin-bottom: 10px;
+    }
+
+    .profile-container ul li p+strong{
+        margin-top: 15px;
+    }
+
+}
