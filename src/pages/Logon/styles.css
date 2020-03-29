@@ -13,6 +13,19 @@
 }
 
 .container section.form form h1{
-    font-size: 32px;
     margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+    section.form {
+        margin: 0;
+    }
+
+    section.form {
+        width: 100%;
+    }
+
+    section.form form{
+        margin-top: 40px;
+    }
 }
