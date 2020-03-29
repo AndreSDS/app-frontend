@@ -18,19 +18,20 @@
 
 @media only screen and (max-width: 600px) {
 
-    div.container img{
+    div.container > img{
         display: none;
     }
 
-    section.form {
-        margin: 0;
-    }
-
-    section.form {
+    div.container section.form {
+        margin: 0 auto;
         width: 100%;
     }
 
-    section.form form{
-        margin-top: 40px;
+    div.container section.form form{
+        margin-top: 32px;
+    }
+
+    div.container section.form img{
+        width: 100%;
     }
 }

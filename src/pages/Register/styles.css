@@ -41,3 +41,38 @@
 .container .content form .input-group input + input{
     margin-left: 8px;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    div.container div.content{
+        flex-direction: column;
+        padding: 10%;
+        height: 100vh;
+    }
+
+    div.content section img {
+        width: 30%;
+    }
+
+    div.container div.content section h1{
+        display: inline-block;
+        float: right;
+        margin: 0;
+    }
+
+    div.container div.content section p{
+        padding: 20px 0;
+    }
+
+    div.content a {
+        margin: 10px 0;
+    }
+
+    div.content form input,
+    div.content form button{
+        height: 50px;
+        line-height: 50px;
+    }
+
+}
